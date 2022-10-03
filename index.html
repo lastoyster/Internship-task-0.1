@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SwaLay Label - Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="style.css"
+  </head>
+
+  <body>
+    <div class="login-form">
+        <form action="login.php" method="post">
+          <div class="top">
+
+          <h1><img src="https://i.ibb.co/8bC441b/Bhavna-Sen-1.png" alt="SwaLay" width="150" height="42" aling="center"></h1>
+            <h1>Label Portal</h1>
+          <h4>Powered by TalantonCore & Microsoft</h4>
+        </div>
+
+        <div class="form-area">
+          <div class="group">
+            <div id="icon-wrapper">
+            <i class="ba bi-user">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" autofocus="true" required/>
+            </div>
+          </div>
+
+            <div class="group">
+              <input type="password" class="form-control" name="password" id="password" placeholder="Password" required/>
+              <div id="eye-wrapper" onclick="toggle()">
+                <i class="bi bi-eye"></i>
+              </div>
+            </div>
+
+
+            <div class="checkbox">
+              <input id="checkbox101" type="checkbox" checked>
+              <label for="checkbox101"> Remember Me</label>
+            </div>
+
+        <button type="submit" class="btn btn-default btn-block">
+          Log In
+        </button>
+      </div>
+      </form>
+
+      <div class="footer links mb-2 mr-sm-2">
+        <div class="cta">
+          <a href="forget-password.php">
+        <i class="bi bi-box-arrow-in-right"></i>Forgot Password?</a>
+      </div>
+      </div>
+    </div>
+
+    <script>
+    let state = false;
+
+    function toggle(){
+
+        if(state){
+            document.getElementById("password").setAttribute("type","password");
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
+
+            state = false;
+        }
+        else{
+            document.getElementById("password").setAttribute("type","text");
+            document.getElementById("open").style.display = "block";
+            document.getElementById("close").style.display = "none";
+
+            state = true;
+        }
+    }
+
+
+    </script>
+  </body>
+</html>

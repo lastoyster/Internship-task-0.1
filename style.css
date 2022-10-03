@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: Helvetica;
+}
+
+.login-form {
+  width: 360px;
+  padding-top: 100px;
+  margin: 0px auto;
+  text-shadow: none;
+}
+.login-form form {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.login-form form img {
+  margin-bottom: 18px;
+}
+.login-form form .profile {
+  border-radius: 999px;
+}
+.login-form form .top {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  padding: 30px 0;
+}
+.login-form form .top .icon {
+  width: 100px;
+  height: 100px;
+}
+
+.login-form form .top h1 {
+  color: #37363E;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: -14px;
+}
+.login-form form .top h4 {
+  margin: 0;
+  letter-spacing: normal;
+  font-weight: normal;
+  color: #76757B;
+  font-size: 15px;
+}
+.login-form form .form-area {
+  padding: 40px;
+}
+.login-form form .form-area .group {
+  position: relative;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.login-form form .form-area .form-control {
+  padding-left: 38px;
+  height: 40px;
+}
+.login-form form .form-area.span{
+    position: absolute;
+    right: 15px;
+    transform: translate(0,-50%);
+    top: 50%;
+    cursor: pointer;
+}
+.form .i{
+   position: absolute;
+    margin-left: -30px;
+    cursor: pointer;
+  }
+
+  #eye-wrapper{
+    background-color: #ffffff;
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    transform: translate(0,-30%);
+    top: 50%;
+    right: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.5s;
+}
+.icons{
+  padding: 10px;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+#open, #close{
+position: absolute;
+margin: auto;
+left: 0;
+right: 0;
+top: 0.5px;
+width: 25px;
+}
+
+#open{
+    display: none;
+}
+
+.login-form form .form-area .checkbox {
+  margin-bottom: 20px;
+}
+.login-form form .form-area .btn {
+  height: 42px;
+  font-weight: 600;
+}
+.login-form form .form-area .checkbox {
+  padding-left: 20px;
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+login form form form-area.btn {
+    font-size: 14px;
+    padding: 7px 20px 7px 20px;
+    display: block;
+    border: none;
+    background: #399bff;
+    border-radius: 3px;
+}
+
+
+.btn:hover {
+  background-color: #eeeeee;
+  color: #666;
+}
+
+
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-block:hover {
+  background-color: #9dceff;
+}
+
+.btn-default {
+  background-color: #399bff;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #D5EAFF;
+}
+::selection {
+  background: #D5EAFF;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+.login-form .footer-links a {
+    color: #fff;
+}
+
+.login-form .footer-links a:hover,
+a {
+    color: #1e90ff;
+}
+
+.login-form .footer-links {
+  color: #4285F4;
+  padding: 10px 5px;
+}
+.login-form .footer-links a {
+  color: #76757B;
+}
+.login-form .footer-links a:hover {
+  color: #37363e;
+}
+
+.login-form .footer-links .col-xs-6 .fa {
+    position: absolute;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(-30);
+}
