@@ -94,18 +94,7 @@ body{
   text-align: center;
 }
 
-#open, #close{
-position: absolute;
-margin: auto;
-left: 0;
-right: 0;
-top: 0.5px;
-width: 25px;
-}
 
-#open{
-    display: none;
-}
 
 .login-form form .form-area .checkbox {
   margin-bottom: 20px;
