@@ -68,38 +68,33 @@ body{
     top: 50%;
     cursor: pointer;
 }
-.form .i{
-   position: absolute;
-    margin-left: -30px;
-    cursor: pointer;
+
+.input-container{
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
   }
 
-  #eye-wrapper{
-    background-color: #ffffff;
-    height: 28px;
-    width: 28px;
-    position: absolute;
-    transform: translate(0,-30%);
-    top: 50%;
-    right: 15px;
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: 1;
-    transition: 0.5s;
-}
-.icons{
-  padding: 10px;
-  color: white;
+.icon{
+  padding: 5px;
+  background-color:#399bff;
   min-width: 50px;
   text-align: center;
-}
+  }
 
-
+.input-group-text {
+  display: flex;
+    background: #007bff;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+  }
 
 .login-form form .form-area .checkbox {
   margin-bottom: 20px;
 }
 .login-form form .form-area .btn {
+  max-width: 500px;
   height: 42px;
   font-weight: 600;
 }
@@ -113,10 +108,10 @@ body{
 
 login form form form-area.btn {
     font-size: 14px;
-    padding: 7px 20px 7px 20px;
+    padding: 2px 12px;
     display: block;
     border: none;
-    background: #399bff;
+    background:#007bff;
     border-radius: 3px;
 }
 
@@ -208,8 +203,8 @@ a {
   color: #37363e;
 }
 
-.login-form .footer-links .col-xs-6 .fa {
-    position: absolute;
+.login-form .footer-links {
+    position: relative;
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
