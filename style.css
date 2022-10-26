@@ -51,6 +51,8 @@ body{
 }
 .login-form form .form-area {
   padding: 40px;
+  margin-top: 0px auto;
+  margin-bottom: : 80px;
 }
 .login-form form .form-area .group {
   position: relative;
@@ -84,53 +86,38 @@ body{
 
 .input-group-text {
   display: flex;
-    background: #007bff;
-    color: white !important;
-    border: 0 !important;
-    border-radius: 0.25rem 0 0 0.25rem !important;
+  background: #007bff;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
   }
 
-.login-form form .form-area .checkbox {
-  margin-bottom: 20px;
-}
-.login-form form .form-area .btn {
-  max-width: 500px;
-  height: 42px;
-  font-weight: 600;
-}
-.login-form form .form-area .checkbox {
-  padding-left: 20px;
-  position: relative;
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-login form form form-area.btn {
-    font-size: 14px;
-    padding: 2px 12px;
-    display: block;
-    border: none;
-    background:#007bff;
-    border-radius: 3px;
-}
-
+  .btn-block {
+      display: inline-block;
+      padding: 2px 12px;
+      text-align: center;
+      margin: 10px 50px 30px;
+      position: relative;
+      min-width: 80%;
+      max-width: 200px;
+      height: 42px;
+      font-weight: 600;
+      font-size: 14px;
+      border: none;
+      background:#007bff;
+      border-radius: 3px;
+    }
 
 .btn:hover {
   background-color: #eeeeee;
   color: #666;
 }
 
-
 .btn.active {
   background-image: none;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
-}
-.btn-block {
-    display: block;
-    width: 100%;
 }
 
 .btn-block:hover {
@@ -204,12 +191,12 @@ a {
 }
 
 .login-form .footer-links {
-    position: relative;
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(-30);
+  position: relative;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(-30);
 }
